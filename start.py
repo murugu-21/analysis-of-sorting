@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 from os import system
 import sys
-# exec(open('read_csv.py').read())
-# system('testprogram.exe')
+exec(open('read_csv.py').read())
+system('testprogram.exe')
 sys.stdin = open("timings.out", "r")
 x = list(map(int, input().split()))
 y = []
